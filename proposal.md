@@ -1,4 +1,4 @@
-# X-Team NN Project Proposal
+# X-Team 34 Seating Chart Project Proposal
 
 See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
 
@@ -35,23 +35,33 @@ Describe at a high level a program that could solve that problem.
 ## Questions to answer for Exercise #2
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
+Seating Chart.
 
-
-
-2. Output: Describe the output your program will produce.  Include and example format of the output produced.
-
-
+2. Output: Describe the output your program will produce.  Include an example format of the output produced.
+The output of the program will provide an array in console-text form designating different people to different desks in a classroom.
+The output could be a GUI including the person's last initial and first five letters of their first name separated by a comma, and all
+of these names arranged in a matrix formation with their pictures.  i.e.:
+T,Micha  T,Micha  T,Micha  T,Micha  T,Micha
+T,Micha  T,Micha  T,Micha  T,Micha  T,Micha
+T,Micha  T,Micha  T,Micha  T,Micha  T,Micha
+T,Micha  T,Micha  T,Micha  T,Micha  T,Micha
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
-
-
+First and foremost, we need all individuals' first and last names, obviously.  Then we'd ask them to give their seating preferences, or 
+lack thereof.  If individuals prefer a certain area of the room to be seated, such as the front of the room, they should make that 
+known.  If individuals wished to sit next to each other, they should both include each other's names in their preferences as well.
+Preferences would be considered in the order in which they were submitted.  They would also need to provide pictures of themselves.
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
-
+The interface would be pretty simple, with a few text boxes/drop-down menus on a webpage for providing their input.  The output would be 
+a simple GUI, printable, could be used for attendance/seating rearrangements.
 
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
-
+- String conversion from first/last names to condensed graph version.
+- Algorithm to sort preferences in order of submission.
+- Algorithm to consider desired pairings of individuals next to each other.
+- Print method.
 
 
 Name each interface or class and briefly describe its function or purpose.
