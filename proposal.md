@@ -31,6 +31,7 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 Briefly describe a problem that your team would like to solve.  
 Describe at a high level a program that could solve that problem.
+
 The program would create a seating chart utlizing given seating preferences.
 
 ## Questions to answer for Exercise #2
